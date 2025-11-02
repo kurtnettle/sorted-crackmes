@@ -90,7 +90,7 @@
 </div>
 
 <div class="rounded-md border">
-	<Table.Root class="w-full text-center text-base sm:text-lg md:table-fixed">
+	<Table.Root class="w-full text-center text-base xl:table-fixed xl:text-lg">
 		<Table.Header>
 			<Table.Row>
 				<SortableHeader columnKey="problem_name" label="Name" css="w-1/5" {table} />
