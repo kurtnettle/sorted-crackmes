@@ -114,7 +114,7 @@
 							{#if cell.column.id === 'problem_name'}
 								<a
 									href={`https://crackmes.one/${row.original.problem.link}`}
-									class="text-blue-400 underline hover:text-blue-300"
+									class="hover:underline focus:underline"
 									target="_blank"
 								>
 									{cell.getValue()}
@@ -122,7 +122,7 @@
 							{:else if cell.column.id === 'author'}
 								<a
 									href={`https://crackmes.one/user/${row.original.author}`}
-									class="text-blue-400 underline hover:text-blue-300"
+									class="hover:underline focus:underline"
 									target="_blank"
 								>
 									{cell.getValue()}
